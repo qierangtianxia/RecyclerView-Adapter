@@ -4,12 +4,12 @@
 ## 2.在外部对你的Adapter进行点击事件的监听注册
 
 例如：
-   第一步:
+   * 第一步:
  	@Override
         public void onBindViewHolder(MyHolder holder, int position) {
             bindListener(holder);
         }
-   第二步:
+   * 第二步:
 	rcvAdapter.setOnItemClickLitener(new ClickableRcvAdapter.OnItemClickLitener() {
             @Override
             public void onItemClick(View view, int position) {
