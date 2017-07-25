@@ -5,12 +5,12 @@
 
 例如：
    * 第一步:
-  	```
+   ```
  	@Override
         public void onBindViewHolder(MyHolder holder, int position) {
             bindListener(holder);
         }
-	 ```
+	```
    * 第二步:
    ```
    rcvAdapter.setOnItemClickLitener(new ClickableRcvAdapter.OnItemClickLitener() {
