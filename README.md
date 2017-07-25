@@ -10,7 +10,7 @@
         public void onBindViewHolder(MyHolder holder, int position) {
             bindListener(holder);
         }
-	```
+```
 	
    * 第二步:
    ```
