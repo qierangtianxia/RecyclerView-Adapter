@@ -5,15 +5,15 @@
 
 例如：
    * 第一步:
-  	''' 
+  	```
  	@Override
         public void onBindViewHolder(MyHolder holder, int position) {
             bindListener(holder);
         }
-	 '''
+	 ```
    * 第二步:
-   	'''
-	rcvAdapter.setOnItemClickLitener(new ClickableRcvAdapter.OnItemClickLitener() {
+   ```
+   rcvAdapter.setOnItemClickLitener(new ClickableRcvAdapter.OnItemClickLitener() {
             @Override
             public void onItemClick(View view, int position) {
                 ToastUtils.showToast("click " + position);
@@ -24,4 +24,4 @@
                 return false;
             }
         });
-	'''
+```
