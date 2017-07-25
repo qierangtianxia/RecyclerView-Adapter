@@ -3,10 +3,10 @@
 
 ## 2.在外部对你的Adapter进行点击事件的监听注册
 
-例如：
+### 例如：
    * 第一步:
    ```
- 	@Override
+     @Override
         public void onBindViewHolder(MyHolder holder, int position) {
             bindListener(holder);
         }
