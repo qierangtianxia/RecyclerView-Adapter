@@ -11,6 +11,7 @@
             bindListener(holder);
         }
 	```
+	
    * 第二步:
    ```
    rcvAdapter.setOnItemClickLitener(new ClickableRcvAdapter.OnItemClickLitener() {
