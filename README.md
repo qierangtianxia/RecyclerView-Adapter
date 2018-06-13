@@ -25,4 +25,11 @@
                 return false;
             }
         });
+	
+   rcvAdapter.setOnItemLongClickLitener(new ClickableRcvAdapter.OnItemLongClickLitener() {
+            @Override
+            public boolean onItemLongClick(View view, int position) {
+                return false;
+            }
+        });
 ```
